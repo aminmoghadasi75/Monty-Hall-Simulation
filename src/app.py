@@ -1,6 +1,10 @@
 import streamlit as st
 import sys
-sys.path.append('/home/amin/my_projects/Python-Projects/level1/Monty_Hall_Simulation')
+from pathlib import Path
+
+ROOT_DIR = Path(__file__).parent.parent.resolve()
+sys.path.insert(0, str(ROOT_DIR))
+
 
 from src.run import monty_hall , simulate_monty_hall
 import time
