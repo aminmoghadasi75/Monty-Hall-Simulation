@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 # Monty Hall Simulation
 
@@ -54,3 +55,6 @@ Win rate in switch mode = 66%
 Win rate in stay mode = 33%
 ```
 
+=======
+
+>>>>>>> Stashed changes

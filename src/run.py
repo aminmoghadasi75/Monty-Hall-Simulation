@@ -1,5 +1,8 @@
 import random
 from collections import Counter
+import sys
+
+sys.path.append('/home/amin/my_projects/Python-Projects/level1/Monty_Hall_Simulation/src')
 
 def monty_hall(mode: str = 'switch') -> bool:
     # Three options: 2 goats and 1 car
